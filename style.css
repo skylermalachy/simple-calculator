@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(67, 67, 114);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  background-color: azure;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 2px 10px 5px rgba(244, 188, 3, 0.5);
+}
+.button-sect {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.buttton {
+  font-size: 25px;
+  background-color: aliceblue;
+  width: 80px;
+  border-color: aliceblue;
+  height: 75px;
+  border-radius: 5px;
+}
+.input {
+  height: 10vh;
+  outline: none;
+  font-size: 25px;
+  text-align: right;
+  border: none;
+  width: 100%;
+  padding: 0;
+
+  margin: 0;
+}
+.operator {
+  color: rgb(169, 7, 7);
+}
